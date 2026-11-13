@@ -118,3 +118,8 @@ npm install
 npx tsc --noEmit      # type check
 npx vite build        # build the desktop GUI part
 ```
+## ☕ Support the Project
+
+If **Auto-Fallback** saved your time or free tokens, you can support the author and future updates:
+
+[![Donate](https://shields.io)](https://www.donationalerts.com/r/twink999)
