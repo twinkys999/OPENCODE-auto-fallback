@@ -1,0 +1,28 @@
+{
+  "name": "opencode-auto-fallback",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenCode plugin: switch the session to another (free) model when the current one runs out of tokens or quota.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tui": "./src/tui.ts",
+    "./rpc": "./src/rpc.ts",
+    "./gui-experimental": "./dist/gui-experimental.cjs"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build:gui": "vite build"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.2.6",
+    "@types/node": "^24.12.2",
+    "solid-js": "^1.9.9",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0",
+    "vite-plugin-solid": "^2.11.9"
+  }
+}
