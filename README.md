@@ -63,7 +63,6 @@ F3                  # toggle the automatic fallback
 
 In OpenCode Desktop the same controls work: `/af`, `/aft`, `F3`, and the command palette (group «Авто-фолбэк»).
 
-### 📸 Demo
 
 <!-- Paste the /fallback menu screenshot here, e.g. uncomment the line below and drop the PNG into the repo -->
 <!-- ![Auto-Fallback menu](docs/screenshot.png) -->
